@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    background: var(--Brand-Color-Red, #ED3729);
+    height: 50px;
+    padding: 15px;
+}
+
+.nav_top {
+    display: flex;
+    align-items: center;
+}
+
+.nav_top_left {
+    display: flex;
+    align-items: center;
+}
+
+.nav_top_left p {
+    color: var(--Color-White, #FFF);
+    font-family: Gotham Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    margin-left: 5px;
+}
+
+.nav_top_right {
+    margin-left: 74px;
+}
+
+.nav_top_right ul li {
+    display: inline-block;
+    margin-left: 33px;
+}
+
+.nav_top_right ul li a {
+    color: var(--Color-White, #FFF);
+    font-family: Gotham Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    text-decoration: none;
+}
+
+.nav_top_end {
+    display: flex;
+    align-items: center;
+    margin-left: 159px;
+}
+
+.nav_top_end p a {
+    color: var(--Color-White, #FFF);
+    font-family: Gotham Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.nav_top_end img {
+    margin-left: 55px;
+}
+
+.nav_main {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.nav_main_inp {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid var(--Brand-Color-Red, #ED3729);
+    background: var(--Color-White, #FFF);
+    margin-left: 57px;
+    width: 717px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.nav_main_inp input {
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-left: 20px;
+}
+
+.mic {
+    margin-left: 232px;
+}
+
+.poisk {
+    border-radius: 0px 5px 5px 0px;
+    background: var(--Brand-Color-Red, #ED3729);
+    width: 127px;
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.poisk p {
+    color: var(--Color-White, #FFF);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    margin-left: 12px;
+}
+.nav_main_comp{
+    margin-left: 108px;
+    display: flex;
+    align-items: center;
+
+}
+.title{
+    margin-left: 33px;
+}
