@@ -7,7 +7,7 @@
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1420px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -21,6 +21,7 @@
 .nav_top {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav_top_left {
@@ -60,6 +61,7 @@
 .nav_top_end {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-left: 159px;
 }
 
@@ -75,7 +77,7 @@
 }
 
 .nav_top_end img {
-  margin-left: 55px;
+  margin-left: 75px;
 }
 
 .nav_main {
@@ -127,30 +129,84 @@
   line-height: 180%;
   margin-left: 12px;
 }
+
 .nav_main_comp {
-  margin-left: 108px;
+  margin-left: 78px;
   display: flex;
   align-items: center;
 }
+
 .title {
-  margin-left: 33px;
+  margin-left: 5px;
+  width: 80px;
 }
-/* main-top */
-.main-top {
-  margin-top: 100px;
-}
-.main-top__advertising {
+
+.nav_bottom {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
 }
-.list {
+
+.nav_bottom_left {
+  border-radius: 5px;
+  background: var(--Brand-Color-Red, #ED3729);
+  width: 280px;
+  height: 50px;
   display: flex;
-  gap: 50px;
+  align-items: center;
+  padding: 10px;
 }
-.list li a {
-  color: #000;
+
+.nav_bottom_left img {
+  margin-left: 79px;
+}
+
+.nav_bottom_left p {
+  color: #FFF;
+  font-family: Nunito;
   font-size: 16px;
+  font-style: normal;
   font-weight: 600;
-  line-height: 180%; 
+  line-height: 180%;
+  /* 28.8px */
+  margin-left: 11px;
 }
+
+.nav_bottom_right ul li {
+  display: inline-block;
+  margin-left: 48px;
+}
+
+
+.nav_bottom_right ul li a {
+  color: #000;
+  font-family: Gotham Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  /* 28.8px */
+}
+
+.colorText {
+  color: var(--Brand-Color-Red, #ED3729);
+  font-family: Gotham Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  /* 28.8px */
+}
+
+.shoping_img {
+  margin-top: 25px;
+  border-radius: 5px;
+  border: 1px solid var(--Gray-6, #F2F2F2);
+  width: 1420px;
+}
+
+
+
+
+/* main-top */
